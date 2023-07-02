@@ -8,8 +8,4 @@ function setImage(imgEl, src){
     imgEl.setAttribute("src", src);
 }
 
-function setInnerHtml(el, htmlString) {
-    el.innerHTML = htmlString;
-}
-
-export {setElText, setImage, setInnerHtml}
+export {setElText, setImage}

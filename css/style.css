@@ -1,0 +1,50 @@
+:root {
+    --brown: rgba(165, 99, 42, 0.514);
+    --black: rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
+}
+
+/* Universal */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: var(--brown);
+}
+
+/* Header */
+
+header, footer {
+    text-align: center;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div img {
+    width: 25rem;
+    height: 25rem;
+}
+
+main button {
+    background-color: var(--white);
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 15rem;
+    border-radius: 0.5rem;
+margin: 2rem;
+}
